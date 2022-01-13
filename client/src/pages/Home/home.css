@@ -1,0 +1,30 @@
+.home-page__container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.highlight-container {
+  padding: 10em 2em;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  opacity: 0.8;
+}
+
+.highlight {
+  width: 20rem;
+  height: 20rem;
+  background: #8f8f97;
+  box-shadow: inset 10px 10px 25px #030303;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
+}

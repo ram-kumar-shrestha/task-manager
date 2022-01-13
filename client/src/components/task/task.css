@@ -1,0 +1,28 @@
+.description {
+  grid-area: "description";
+}
+#btn-complete {
+  grid-area: "complete";
+}
+#btn-delete {
+  grid-area: "delete";
+}
+
+.task {
+  font-size: 1.4rem;
+  padding: 0.5em;
+  color: #cacaca;
+  display: grid;
+  grid-template-columns: 35rem;
+  grid-template-areas: "description description description complete delete";
+}
+
+.task .description {
+  margin-right: 1em;
+  line-height: 1.6em;
+}
+
+.task #completed {
+  text-decoration: line-through;
+  color: #808080;
+}

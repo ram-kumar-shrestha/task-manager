@@ -1,0 +1,50 @@
+.add-task__container {
+  text-align: center;
+  position: relative;
+  width: 60%;
+  margin: 2rem auto;
+  min-height: 3rem;
+  padding: 0.5em;
+  box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+input {
+  color: #cfcfcf;
+  font-size: 1rem;
+  padding: 0.3em 0.5em;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #313131;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+}
+
+input:active,
+input:focus,
+input:hover {
+  border: 1px solid #3cc1ff;
+}
+
+#btn-search {
+  width: 2rem;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 700;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}

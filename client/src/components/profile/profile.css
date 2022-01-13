@@ -1,0 +1,24 @@
+.profile-container {
+  background: linear-gradient(
+    99.96deg,
+    rgba(156, 156, 156, 0.3) 2.12%,
+    rgba(255, 255, 255, 0.1) 98.19%
+  );
+  padding: 1em;
+  width: 60%;
+  min-height: 10rem;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px #111;
+  backdrop-filter: blur(5px);
+}
+
+#btn-delete {
+  width: 100%;
+  background: rgb(255, 40, 40, 0.5);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8em;
+  cursor: pointer;
+}

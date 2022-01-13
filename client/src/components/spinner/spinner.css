@@ -1,0 +1,29 @@
+.spinning-loader {
+  display: inline-block;
+
+  width: 1.4em;
+  height: 1.4em;
+
+  border: 0.35em solid rgba(16, 22, 26, 0.2);
+  border-left-color: rgb(11, 39, 56);
+
+  border-radius: 50%;
+  background: transparent;
+
+  animation-name: rotate-s-loader;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  position: relative;
+  top: 0.3rem;
+  left: 1rem;
+}
+
+@keyframes rotate-s-loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

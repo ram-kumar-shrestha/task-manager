@@ -1,0 +1,61 @@
+.btn-welcome__nav {
+  margin: 1em auto;
+  margin-right: 1em;
+  padding: 1em;
+  float: right;
+  border-radius: 5px;
+  background: #2bc2ff;
+  font-size: 1.2rem;
+  color: #363636;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  border: none;
+}
+
+#btn-logout {
+  background: #fff;
+}
+
+#btn-logout:hover,
+#btn-logout:active,
+#btn-logout:focus {
+  color: #fff;
+  background: #363838;
+}
+
+#btn-profile:hover,
+#btn-profile:active,
+#btn-profile:focus {
+  color: #2bc2ff;
+  background: #363838;
+}
+
+.btn-task {
+  padding: 0.5em;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#btn-complete {
+  background: #1aa1b9;
+  margin-right: 0.5em;
+}
+
+#btn-complete:hover,
+#btn-complete:active,
+#btn-complete:focus {
+  color: #1aa1b9;
+  background: #cfcfcf;
+}
+
+#btn-delete:hover,
+#btn-delete:active,
+#btn-delete:focus {
+  color: #ff2828;
+  background: #cfcfcf;
+}
