@@ -11,3 +11,14 @@ Run the server
 Run react app
 ### `cd client && npm start`
  
+## Home page
+![Home Page](/screenshots/home.png)
+
+## Signup page
+![Signup Page](/screenshots/signup.png)
+
+## Login Page
+![ScreenShot](/screenshots/login.png)
+
+## Profile page
+![Profile Page](/screenshots/profile.png)
